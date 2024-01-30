@@ -1,0 +1,27 @@
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.pak_son;
+
+/**
+ *
+ * @author ASUS
+ */
+public abstract class Pak_son {
+    public int publicVar;
+    protected int protectedVar;
+    int defaultVar;
+    private int privateVar;
+
+    final int constantVar = 10;
+    abstract void abstractMethod();
+    static int staticVar;
+    transient int transientVar;
+    volatile int volatileVar;
+
+    public synchronized void synchronizedMethod() {
+        // ... implementasi metode
+    }
+
+    public native void nativeMethod();
+}
